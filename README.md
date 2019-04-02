@@ -2,19 +2,25 @@
 
 ## Overview
 
-In this lesson you're going to build an application that provides a Command Line Interface (CLI) to an external data source. The CLI will be composed of an Object Oriented Ruby application.
+For this project, you are going to build an application that provides a Command Line Interface (CLI) to an external data source. The CLI will be composed of an Object Oriented Ruby application.
 
-**Please note that while you will be writing code to scrape data from a public website, what we're looking for is your capacity to effectively write good object oriented Ruby (objects, not hashes, separation of concerns, etc.) - we're less interested in the details of the regex's or selector you're using to parse the web pages that you're scraping.**
+**Please note that while you will be writing code to scrape data from a public website, what we're looking for is your capacity to effectively write good object oriented Ruby (objects, not hashes, separation of concerns, etc.) We are less interested in the details of the regex or selector you're using to parse the web pages.**
 
 ## Requirements
 
-1. Provide a CLI
-1. CLI must provide access to data from a web page.
-1. The data provided must go at least one level deep, generally by showing the user a list of available data and then being able to drill down into a specific item.
-1. The CLI application can not be a Music CLI application as that is too similiar to the other OO Ruby final project. Also please refrain from using Kickstarter as that was used for the scraping 'code along'. Look at the example domains below for inspiration.
-1. Use good OO design patterns. You should be creating a collection of objects - not hashes.
+1. Provide a CLI.
 
-*For bonus points, instead of just creating an application, create a gem and for extra bonus points try publishing it to RubyGems.*
+2. Your CLI must provide access to data from a web page.
+
+3. The data provided must go at least one level deep, generally by showing the user a list of available data and then drilling down into a specific item and showing info for that.
+
+4. After a user enters input, your CLI should reach out to the web page again to scrape new data.
+
+5. The CLI application can not be a Music CLI application as that is too similiar to the other OO Ruby final project. Also please refrain from using Kickstarter since that was used for the scraping 'code along'. Look at the example domains below for inspiration. Check off your domain with your instructor before starting your project.
+
+6. Use good OO design patterns. You should be creating a collection of objects. Attempt to make your code as "DRY" (Don't Repeat Yourself) as possible.
+
+7. Your application should conform to Nitro's Ruby linting conventions. The `rubocop.yml` included in this repo should be copied over to your application and named `.rubocop.yml`. Running `rubocop` from your application's root should return a `no offenses detected` message. (Notice you change the filename by adding a `.` to it.)
 
 ### Example Domains
 
@@ -30,14 +36,18 @@ Take the time to clone, run and look through the code for both of these in detai
 ## Instructions
 
 1. Watch this [video walkthrough](https://www.youtube.com/watch?v=_lDExWIhYKI) of building a CLI Gem called [Daily Deal](https://github.com/learn-co-curriculum/daily_deal) before you begin.
-1. Create a new repository on GitHub for your application, ie: `name-cli-app`.
-1. Build your application. Make sure to commit early and commit often. Commit messages should be meaningful (clearly describe what you're doing in the commit) and accurate (there should be nothing in the commit that doesn't match the description in the commit message). Good rule of thumb is to commit every 3-7 mins of actual coding time. Most of your commits should have under 15 lines of code and a 2 line commit is perfectly acceptable. **This is important and you'll be graded on this**.
-1. Create a good README.md with a short description, installation instructions, a contributors guide and a link to the license for your code.
-1. Use [this checklist](https://docs.google.com/forms/d/1ItDHkNbtHJP8T2G28Nqc3Ad8MppbPDpqv9AijAOCFDA/) as a guide but do NOT submit it.
+
+2. Create a new repository on GitHub for your application, ie: `name-cli-app`.
+
+3. Build your application. Make sure to commit early and commit often. Commit messages should be meaningful (clearly describe what you're doing in the commit) and accurate (there should be nothing in the commit that doesn't match the description in the commit message). Good rule of thumb is to commit every 3-7 mins of actual coding time. Most of your commits should have under 15 lines of code and a 2 line commit is perfectly acceptable. **This is important and you'll be graded on this**.
+
+4. Create a good README.md with a short description, installation instructions, a contributors guide and a link to the license for your code.
+
+5. Add this [checklist.md](https://github.com/learn-co-curriculum/phrg-cli-scraping-gem-project/blob/master/checklist.md) in your project and address each requirement. Check each box (replace the space between the square braces with an x) and feel free to write next to an item on how you've met the requirement.
 
 ## Project Review:
 
-Your project review will be with a Nitro Developer.
+Your project review will be with a Nitro System Architect.
 
 ### Be Prepared to:
 
