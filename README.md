@@ -4,8 +4,6 @@
 
 For this project, you are going to build an application that provides a Command Line Interface (CLI) to an external data source. The CLI will be composed of an Object Oriented Ruby application.
 
-**Please note that while you will be writing code to scrape data from a public website, what we're looking for is your capacity to effectively write good object oriented Ruby (objects, not hashes, separation of concerns, etc.) We are less interested in the details of the regex or selector you're using to parse the web pages.**
-
 ## Requirements
 
 1. Provide a CLI.
@@ -16,11 +14,11 @@ For this project, you are going to build an application that provides a Command 
 
 4. After a user enters input, your CLI should reach out to the web page again to scrape new data.
 
-5. The CLI application can not be a Music CLI application as that is too similiar to the other OO Ruby final project. Also please refrain from using Kickstarter since that was used for the scraping 'code along'. Look at the example domains below for inspiration. Check off your domain with your instructor before starting your project.
+5. The CLI application can not be a Music CLI application as that is too similiar to the other OO Ruby final project. Also please refrain from using Kickstarter since that was used for the scraping 'code along'. Look at the example domains below for inspiration. **Check off your domain with your instructor before starting your project.**
 
-6. Use good OO design patterns. You should be creating a collection of objects. Attempt to make your code as "DRY" (Don't Repeat Yourself) as possible.
+6. Use good Object Oriented design patterns. You should be create collection of objects that relate to one another. Attempt to make your code as "DRY" (Don't Repeat Yourself) as possible.
 
-7. Your application should conform to Nitro's Ruby linting conventions. The `rubocop.yml` included in this repo should be copied over to your application and named `.rubocop.yml`. Running `rubocop` from your application's root should return a `no offenses detected` message. (Notice you change the filename by adding a `.` to it.)
+7. Your application should conform to Nitro's Ruby linting conventions. The `rubocop.yml` file included in this repo should be copied over to your application and named `.rubocop.yml`. Running `rubocop` from your application's root should return a `no offenses detected` message. (Notice you need to change the filename by adding a `.` to it.)
 
 ### Example Domains
 
@@ -29,21 +27,24 @@ For this project, you are going to build an application that provides a Command 
 - Programming meetups near you, list details.
 - News reader - List articles, read article.
 
-[now-playing](https://github.com/learn-co-curriculum/now-playing-cli-gem) is an example of a gem that would meet these requirements.
-[worlds best restaurants](https://github.com/cjbrock/worlds-best-restaurants-cli-gem) was built by a Learn student, maintained by Flatiron School staff, meets these requirements, and is well coded.
+[now-playing](https://github.com/learn-co-curriculum/now-playing-cli-gem) is an example of a gem.
+[worlds best restaurants](https://github.com/cjbrock/worlds-best-restaurants-cli-gem) was built by a Learn student, maintained by the Flatiron School staff, and is well coded.
+
 Take the time to clone, run and look through the code for both of these in detail - it will help.
 
 ## Instructions
 
-1. Watch this [video walkthrough](https://www.youtube.com/watch?v=_lDExWIhYKI) of building a CLI Gem called [Daily Deal](https://github.com/learn-co-curriculum/daily_deal) before you begin.
+Watch this [video walkthrough](https://www.youtube.com/watch?v=_lDExWIhYKI) of building a CLI Gem called [Daily Deal](https://github.com/learn-co-curriculum/daily_deal) before you begin.
 
-2. Create a new repository on GitHub for your application, ie: `name-cli-app`.
+1. Create a new repository on GitHub for your application, ie: `name-cli-app`.
 
-3. Build your application. Make sure to commit early and commit often. Commit messages should be meaningful (clearly describe what you're doing in the commit) and accurate (there should be nothing in the commit that doesn't match the description in the commit message). Good rule of thumb is to commit every 3-7 mins of actual coding time. Most of your commits should have under 15 lines of code and a 2 line commit is perfectly acceptable. **This is important and you'll be graded on this**.
+2. Build your application. Make sure to commit early and commit often. Commit messages should be meaningful (clearly describe what you're doing in the commit) and accurate (there should be nothing in the commit that doesn't match the description in the commit message). Good rule of thumb is to commit every 3-7 mins of actual coding time. Most of your commits should have under 15 lines of code and a 2 line commit is perfectly acceptable. **This is important and you will be graded on it**.
 
-4. Create a good README.md with a short description, installation instructions, a contributors guide and a link to the license for your code.
+3. Create a good README.md with a short description and installation instructions.
 
-5. Add this [checklist.md](https://github.com/learn-co-curriculum/phrg-cli-scraping-gem-project/blob/master/checklist.md) in your project and address each requirement. Check each box (replace the space between the square braces with an x) and feel free to write next to an item on how you've met the requirement.
+4. Add this [checklist.md](https://github.com/learn-co-curriculum/phrg-cli-scraping-gem-project/blob/master/checklist.md) in your project and address each requirement. Check each box (replace the space between the square braces with an x) and feel free to write next to an item on how you've met the requirement.
+
+**While you will be writing code to scrape data from a public website, what we're looking for is your capacity to effectively write good object oriented Ruby (objects, not hashes, separation of concerns, etc.) We are less interested in the details of the regex or selector you're using to parse the web pages.**
 
 ## Project Review:
 
@@ -52,13 +53,10 @@ Your project review will be with a Nitro System Architect.
 ### Be Prepared to:
 
 1. Explain your code from execution point to exit point.
-1. Walkthrough the CLI tool. Be able to demonstrate multiple successful workflows. **Write your code in such a way that it outputs useful instructions if a user submits invalid input. And demonstate that too.**
+1. Walkthrough your CLI tool. Be able to demonstrate multiple successful workflows. Write your code in such a way that it outputs useful instructions if one submits invalid input. And demonstate entering invalid input.
 1. Refactor your code.
 
-If necessary, after your project review, be prepared to:
-
-1. Extend the application with a new feature, more data, a different domain etc.
-1. Submit an improved version.
+If necessary, after your project review, be prepared to extend the application with a new feature and submit an improved version.
 
 ### What to expect
 
