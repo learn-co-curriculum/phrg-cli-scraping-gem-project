@@ -53,7 +53,7 @@ Style/TrailingCommaInArrayLiteral:
 Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: comma
 
-## For the CLI Scraping project, ignore all Metrics violations except LineLength
+## Ignore all Metrics violations except LineLength
 Metrics/AbcSize:
   Enabled: false
 
@@ -82,4 +82,12 @@ Metrics/ParameterLists:
   Enabled: false
 
 Metrics/PerceivedComplexity:
+  Enabled: false
+
+## Ignore cops that raise on design features for the project
+
+Security/Open:
+  Enabled: false
+
+Style/ClassVars:
   Enabled: false
