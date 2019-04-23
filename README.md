@@ -42,7 +42,7 @@ Watch this [video walkthrough](https://www.youtube.com/watch?v=_lDExWIhYKI) of b
 
 3. Create a good README.md with a short description and installation instructions.
 
-4. Add this [checklist.md](https://github.com/learn-co-curriculum/phrg-cli-scraping-gem-project/blob/master/checklist.md) in your project and address each requirement. Check each box (replace the space between the square braces with an x) and feel free to write next to an item on how you've met the requirement.
+4. Add this [requirements.md](https://github.com/learn-co-curriculum/phrg-cli-scraping-gem-project/blob/master/requirements.md) in your project and address each requirement. Check each box (replace the space between the square braces with an x) and feel free to write next to an item on how you've met the requirement.
 
 **While you will be writing code to scrape data from a public website, what we're looking for is your capacity to effectively write good object oriented Ruby (objects, not hashes, separation of concerns, etc.) We are less interested in the details of the regex or selector you're using to parse the web pages.**
 
