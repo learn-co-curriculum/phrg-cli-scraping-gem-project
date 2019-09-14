@@ -12,7 +12,7 @@ For this project, you are going to build an application that provides a Command 
 
 3. After the user enters input, your CLI should reach out to the web page again to scrape additional data. Write your code in such a way that it outputs useful instructions if one submits invalid input.
 
-4. Refrain from using Kickstarter since that was used for the scraping 'code along'. Look at the example domains below for inspiration, but the webpage you choose will guide how your CLI can be built. **Check your domain with your instructor before starting your project.**
+4. Use the example domains below for inspiration, but the web page you choose to scrape will guide how your CLI can be built. **Check your domain with your instructor before starting your project.**
 
 5. Use Object Oriented design patterns. You should be creating instances of objects that relate to one another. Attempt to make your code as "DRY" (Don't Repeat Yourself) as possible.
 
@@ -52,6 +52,8 @@ Project reviews are focused on preparing you for speaking technically with other
 ---
 
 ## Example Domains
+
+Refrain from using Kickstarter since that was used for the scraping 'code along'. Some other possibilities include:
 
 - Movies opening soon - Enter your zip code and receive a list of movies and their details.
 - Libraries near you -  Enter your zip code and receive a list of libraries and their details.
