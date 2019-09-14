@@ -18,14 +18,6 @@ For this project, you are going to build an application that provides a Command 
 
 6. The application should conform to Nitro's Ruby linting conventions. The `rubocop.yml` file included in this repo should be copied over to your application and named `.rubocop.yml`. Running `rubocop` from your application's root should return a `no offenses detected` message. (Notice you need to change the filename by adding a `.` to it.)
 
-### Example Domains
-
-- Movies opening soon - Enter your zip code and receive a list of movies and their details.
-- Libraries near you -  Enter your zip code and receive a list of libraries and their details.
-- Programming meetups near you, list details.
-- News reader - List articles, read article.
-
-### Link example repo here that was a project made by a PCA graduate.
 
 ## Instructions
 
@@ -35,31 +27,40 @@ For this project, you are going to build an application that provides a Command 
 
 3. Create a README.md with a short description and installation instructions.
 
-4. Add the [requirements.md](https://github.com/learn-co-curriculum/phrg-cli-scraping-gem-project/blob/master/requirements.md) to your project and address each requirement. Check each box (replace the space between the square braces with an x) and feel free to write under each item on how you've met that requirement.
+4. Add the [requirements.md](https://github.com/learn-co-curriculum/phrg-cli-scraping-gem-project/blob/master/requirements.md) file to your project. Address all items by describing how you have met that requirement under each line and by checking each box. **USE CORRECT TECHNICAL VOCABULARY**
 
-**While you will be writing code to scrape data from a website, what we are looking for is your capacity to effectively write good object oriented Ruby (objects, not hashes, separation of concerns, etc.)**
 
 ## Project Review:
 
-Your project review will be with a Nitro System Architect. If necessary, after your review, be prepared to extend the application with a new feature and submit an improved version.
+Your project review will be with a Nitro System Architect. If necessary, after the review, you may need to extend the application and submit an improved version.
+
+Project reviews are focused on preparing you for speaking technically with other Power developers. Treat Project Reviews as if they were technical interviews, in both attitude and technical presentation. The only way to get better at using new vocabulary is practicing. Practice presenting your application before the review.
 
 ### Be Prepared to:
 
-1. Walk through your requirements.md and comment how you have fulfilled each criteria.
+1. Walk through your requirements.md and comment how you have fulfilled each of the criteria.
 1. Explain your code from execution point to exit point.
-1. Walk through your CLI tool. Be able to demonstrate multiple successful workflows and what happens when you enter invalid input.
+1. Demonstrate multiple successful workflows and what happens when you enter invalid input.
 1. Refactor your code.
 
-### What to expect in your Project Review
-
-Project reviews are focused on preparing you for speaking technically with other Power developers. Treat Project Reviews as if they were technical interviews, in both attitude and technical presentation. The only way to get better at using new vocabulary is practicing. Practice presenting your application to a peer before the review.
+### Final advice:
 
 - If you make a mistake, correct yourself. We all make mistakes.
-- Use the best technical vocabulary you can. We will help you with the words you cannot remember, or if you are unsure about how something is pronounced.
-- Think on your feet. You are being asked to expand on concepts you have implemented and you should push yourself to the edge of your knowledge.
-- Be proud of your project and your code, and show confidence in it.
 - Be open to feedback.
 - Ask questions! Curiosity and willingness to learn are hugely valued in our industry.
+
+---
+
+## Example Domains
+
+- Movies opening soon - Enter your zip code and receive a list of movies and their details.
+- Libraries near you -  Enter your zip code and receive a list of libraries and their details.
+- Programming meetups near you, list details.
+- News reader - List articles, read article.
+
+
+## Link example repo here that was a project made by a PCA graduate.
+
 
 ## Resources
 
