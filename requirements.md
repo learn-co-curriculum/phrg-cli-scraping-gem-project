@@ -9,7 +9,6 @@ CLI:
 Confirm:
 - [ ] Application uses Ruby Objects to communicate (and not global methods)
 - [ ] The application is generally DRY
-- [ ] You have committed often
 - [ ] Conforms to Nitro Ruby linting rules (Run `rubocop` on your project root directory and confirm it exits without any offenses detected.)
 - [ ] Your commit messages are meaningful
 - [ ] You made the changes in a commit that relate to the commit message
