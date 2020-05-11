@@ -58,15 +58,7 @@ Refrain from using Kickstarter since that was used for the scraping 'code along'
 - Programming meetups near you, list details.
 - News reader - List articles, read article.
 
-## Link example repo here that was a project made by a PCA graduate.
+## Example repos by PCA graduates
 
-## Resources
-
-- [How to build a ruby gem](http://guides.rubygems.org/make-your-own-gem/)
-- [How to publish your gem](http://guides.rubygems.org/publishing/)
-- [Environments, Requiring Files, Bundler, and Gems](https://www.youtube.com/watch?v=XBgZLm-sdl8)
-- [Video- CLI Data Gem Walkthrough](https://www.youtube.com/watch?v=_lDExWIhYKI)
-- [Video- CLI Data Gem Walkthrough: Creating a CLI Scraper Gem](https://www.youtube.com/watch?v=Y5X6NRQi0bU)
-- [Video- Common Anti-Patterns in CLI Data Gem](https://www.youtube.com/watch?v=cbMa87oWv08)
-- [Video- Student Example 1: Refactoring CLI Data Gem](https://www.youtube.com/watch?v=JEL_PXr74qQ)
-- [Video- Student Example 2: Refactoring CLI Data Gem](https://www.youtube.com/watch?v=Lt0oyHiKWIw)
+- [Ezz Abousaif](https://github.com/eabousaif/top50movielist_cli_app)
+- [Kyle Fadigan](https://github.com/KFad11/DGTournament-cli-app)
