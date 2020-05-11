@@ -60,5 +60,5 @@ Refrain from using Kickstarter since that was used for the scraping 'code along'
 
 ## Example repos by PCA graduates
 
-- [Ezz Abousaif](https://github.com/eabousaif/top50movielist_cli_app)
-- [Kyle Fadigan](https://github.com/KFad11/DGTournament-cli-app)
+- [Top 50 Movies](https://github.com/eabousaif/top50movielist_cli_app)
+- [Pennsylvania Disc Golf Tournament Tracker](https://github.com/KFad11/DGTournament-cli-app)
