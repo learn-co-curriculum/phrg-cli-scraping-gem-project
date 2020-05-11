@@ -16,7 +16,7 @@ For this project, you are going to build an application that provides a Command 
 
 5. Use Object Oriented design patterns. You should be creating instances of objects that relate to one another. Attempt to make your code as "DRY" (Don't Repeat Yourself) as possible.
 
-6. The application should conform to Nitro's Ruby linting conventions. The `rubocop.yml` file included in this repo should be copied over to your application and named `.rubocop.yml`. Running `rubocop` from your application's root should return a `no offenses detected` message. (Notice you need to change the filename by adding a `.` to it.)
+6. The application should conform to Nitro's Ruby linting conventions. The `.rubocop.yml` file included in this repo must be copied over to your application, it is not exactly the same as the generic file copied over to your system from the Ruby Linting lesson. Running `rubocop` from your application's root should return a `no offenses detected` message.
 
 ## Instructions
 
