@@ -1,5 +1,8 @@
 # These rules apply to the Nitro Umbrella app and all components.
 
+require:
+  - rubocop-performance
+
 AllCops:
   TargetRubyVersion: 2.5
   Exclude:
@@ -14,7 +17,19 @@ AllCops:
 Layout/AccessModifierIndentation:
   EnforcedStyle: outdent
 
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+
+Lint/RaiseException:
+  Enabled: false
+
 Lint/ScriptPermission:
+  Enabled: false
+
+Lint/StructNewOverride:
+  Enabled: true
+
+Metrics/BlockLength:
   Enabled: false
 
 Naming/FileName:
@@ -22,7 +37,7 @@ Naming/FileName:
     - 'Guardfile'
     - 'Capfile'
 
-Naming/UncommunicativeMethodParamName:
+Naming/MethodParameterName:
   AllowedNames:
     - io
     - id
@@ -32,10 +47,25 @@ Naming/UncommunicativeMethodParamName:
     - in
     - at
 
-Rails:
+Style/Documentation:
   Enabled: false
 
-Style/Documentation:
+Style/ExponentialNotation:
+  Enabled: false
+
+# This is enabled in Nitro, and important to enforce to prepare for Ruby 3.0.
+# But Ruby will not be raised to 3.0 during the duration of the PCA.
+# So disabling this rule dramatically reduces noise.
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/HashEachMethods:
+  Enabled: false
+
+Style/HashTransformKeys:
+  Enabled: false
+
+Style/HashTransformValues:
   Enabled: false
 
 Style/Lambda:
@@ -44,6 +74,9 @@ Style/Lambda:
 Style/RescueStandardError:
   EnforcedStyle: implicit
 
+# Single quotes being faster is hardly measurable and only affects parse time.
+# Enforcing double quotes reduces the times where you need to change them when introducing an interpolation.
+# Use single quotes only if their semantics are needed.
 Style/StringLiterals:
   EnforcedStyle: double_quotes
 
@@ -53,35 +86,15 @@ Style/TrailingCommaInArrayLiteral:
 Style/TrailingCommaInHashLiteral:
   EnforcedStyleForMultiline: comma
 
-## Ignore all Metrics violations except LineLength
-Metrics/AbcSize:
-  Enabled: false
-
-Metrics/BlockLength:
-  Enabled: false
+## Ignore some Metrics violations
 
 Metrics/BlockNesting:
-  Enabled: false
-
-Metrics/ClassLength:
   Enabled: false
 
 Metrics/CyclomaticComplexity:
   Enabled: false
 
-Metrics/LineLength:
-  Max: 100
-
-Metrics/MethodLength:
-  Enabled: false
-
-Metrics/ModuleLength:
-  Enabled: false
-
 Metrics/ParameterLists:
-  Enabled: false
-
-Metrics/PerceivedComplexity:
   Enabled: false
 
 ## Ignore cops that raise on design features for the project
