@@ -20,13 +20,15 @@ For this project, you are going to build an application that provides a Command 
 
 ## Instructions
 
-1. Create a new repository on GitHub for your application with a descriptive name that communicates the subject matter of the application.
+1. Decide on the web page you will scrape. Use the example domains and repos at the bottom of this README for inspiration. Before making your choice, be sure to test your page with Javascript turned OFF in your browser. Ask Google to learn how to turn off JS, because the logistics of changing browser settings updates regularly.
 
-2. As you build your application, make sure to commit early and often. Commit messages should be meaningful and accurate. Clearly describe what you're doing in the commit and note that there should be nothing in it that doesn't match the commit subject and description. A good rule of thumb is to commit every 3-7 mins of actual coding time. **This is important and you will be graded on it**.
+2. Create a new repository on GitHub with a descriptive name that communicates the subject matter of your application.
 
-3. Create a `README.md` with a short description and installation instructions.
+3. As you build your application, make sure to commit early and often. Commit messages should be meaningful and accurate. Clearly describe what you're doing in the commit and note that there should be nothing in it that doesn't match the commit subject and description. A good rule of thumb is to commit every 3-7 mins of actual coding time. **This is important and you will be graded on it**.
 
-4. Add the [requirements.md](https://github.com/learn-co-curriculum/phrg-cli-scraping-gem-project/blob/master/requirements.md) file to your project. Address all items by describing how you have met that requirement under each line and by checking each box. **USE CORRECT TECHNICAL VOCABULARY**
+4. Create a `README.md` with a short description and installation instructions.
+
+5. Add the [requirements.md](https://github.com/learn-co-curriculum/phrg-cli-scraping-gem-project/blob/master/requirements.md) file to your project. Address all items by describing how you have met that requirement under each line and by checking each box. **USE CORRECT TECHNICAL VOCABULARY**
 
 ## Project Review
 
